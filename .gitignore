@@ -1,0 +1,154 @@
+# ===========================================
+# JavaScript学習用 .gitignore
+# ===========================================
+
+# ===== システム・エディタ関連 =====
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# ===== VSCode関連 =====
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# ===== 履歴・ログファイル =====
+# シェル履歴
+.bash_history
+.zsh_history
+.history
+history.txt
+*.log
+
+# Git履歴（もし間違って作られた場合）
+.git_history
+git_history.txt
+
+# ===== Node.js関連 =====
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Package-lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# ===== 開発ツール・ビルド関連 =====
+# Build outputs
+dist/
+build/
+out/
+.output/
+.nuxt/
+.next/
+.vite/
+
+# Cache directories
+.cache/
+.parcel-cache/
+.vite-cache/
+
+# ===== 環境設定・秘匿情報 =====
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# API Keys (もし学習で使う場合)
+config.js
+secrets.js
+*.key
+*.pem
+
+# ===== 個人的なメモ・下書き =====
+# 個人メモ（公開したくない場合）
+personal-notes.md
+draft.md
+memo.txt
+scratch.js
+test.html
+playground.js
+
+# 一時ファイル
+temp/
+tmp/
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ===== ブラウザ・開発サーバー関連 =====
+# Live Server
+.vscode-live-server-*
+
+# Browser cache
+.cache-loader/
+
+# ===== 学習関連（オプション） =====
+# 完成していない課題（公開したくない場合）
+# incomplete/
+# wip/
+
+# 解答例（見せたくない場合）  
+# solutions/
+# answers/
+
+# ===== その他 =====
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Images (大きなファイルを除外したい場合)
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+
+# Videos (大きなファイル)
+*.mp4
+*.avi
+*.mov
+*.webm
+
+# Documents (重いファイル)
+*.pdf
+*.doc
+*.docx
