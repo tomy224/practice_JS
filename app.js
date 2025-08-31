@@ -127,3 +127,16 @@ pikachu.levelUp();
 // for (let i = pikachu.level; i < 20; i++) {
 //   console.log(pikachu.skills[i]);
 // }
+
+console.log(Math.ceil(6.7)); // 7
+
+const myPokemons = ["サンダー","ホウオウ","スイクン","ラティアス","パルキア"];
+myPokemons.push("ミュウツー");
+
+console.log(myPokemons.length);  
+
+const oldVersions = ["赤", "緑", "青"];
+const newVersions = ["ピカチュウ", "リザードン", "ゲンガー"];
+// oldVersions.push(newVersions);
+// console.log(oldVersions); // ["赤", "緑", "青", Array(3)]
+console.log(oldVersions.concat(newVersions)); // ["赤", "緑", "青", "ピカチュウ", "リザードン", "ゲンガー"]
