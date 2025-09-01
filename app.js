@@ -140,3 +140,23 @@ const newVersions = ["ピカチュウ", "リザードン", "ゲンガー"];
 // oldVersions.push(newVersions);
 // console.log(oldVersions); // ["赤", "緑", "青", Array(3)]
 console.log(oldVersions.concat(newVersions)); // ["赤", "緑", "青", "ピカチュウ", "リザードン", "ゲンガー"]
+
+
+document.querySelector("#pokemon").innerText = "ポケモンゲットだぜ"
+
+const timersetTimeout(function(){
+  alert("タイマー");
+}, 10000);
+
+document.querySelector()
+
+const $foo = document.querySelector(".bar");
+
+$foo[0].innerHTML = "<div>hello!</div>"
+
+// プレフィックスの例は、全部大文字なら変わらない定数
+const DOMAIN = "https://pokemon.com";
+
+// 最初にisが付けば、条件式(true/false)を返す変数
+// const isLogin = false;
+// const isLogin = false;
