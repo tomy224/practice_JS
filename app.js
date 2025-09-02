@@ -144,9 +144,9 @@ console.log(oldVersions.concat(newVersions)); // ["赤", "緑", "青", "ピカ�
 
 document.querySelector("#pokemon").innerText = "ポケモンゲットだぜ"
 
-const timersetTimeout(function(){
-  alert("タイマー");
-}, 10000);
+// const timersetTimeout(function(){
+//   alert("タイマー");
+// }, 10000);
 
 document.querySelector()
 
@@ -160,3 +160,11 @@ const DOMAIN = "https://pokemon.com";
 // 最初にisが付けば、条件式(true/false)を返す変数
 // const isLogin = false;
 // const isLogin = false;
+
+const $post = document.createElement("article");
+$post.setAttribute("class", "post");
+$post.innerText = "お腹へったなう。";
+
+const $timeline = document.querySelectorAll(".timeline")[0];
+$timeline.appendChild($post);
+// document.querySelector(".timeline").appendChild($post);
