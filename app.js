@@ -144,7 +144,7 @@ console.log(oldVersions.concat(newVersions)); // ["赤", "緑", "青", "ピカ�
 
 document.querySelector("#pokemon").innerText = "ポケモンゲットだぜ"
 
-// const timersetTimeout(function(){
+// const timersetTimeout(function(){　
 //   alert("タイマー");
 // }, 10000);
 
