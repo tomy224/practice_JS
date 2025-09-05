@@ -168,3 +168,9 @@ $post.innerText = "お腹へったなう。";
 const $timeline = document.querySelectorAll(".timeline")[0];
 $timeline.appendChild($post);
 // document.querySelector(".timeline").appendChild($post);
+
+$foo[0].innerHTML = "<div>hello!</div>"
+
+window.addEventListener("load", function(){
+  alert("ページの読み込みが完了しました");
+});
