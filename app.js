@@ -174,3 +174,14 @@ $foo[0].innerHTML = "<div>hello!</div>"
 window.addEventListener("load", function(){
   alert("ページの読み込みが完了しました");
 });
+
+document.quertSelector("#button")
+.addEventListener("click", function(){
+  document.querySelector("#output")
+  .innerHTML = "ピカチュウ";
+});
+
+//　標準組み込みオブジェクト:Math, Date, String, Array, Object
+// ブラウザ組み込みオブジェクト:window, document, console
+
+// const date = new Date();
