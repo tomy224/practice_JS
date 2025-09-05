@@ -146,7 +146,7 @@ document.querySelector("#pokemon").innerText = "ポケモンゲットだぜ"
 
 // const timersetTimeout(function(){　
 //   alert("タイマー");
-// }, 10000);
+// }, 10000);a
 
 document.querySelector()
 
